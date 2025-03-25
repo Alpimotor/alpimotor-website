@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Siamo - Alpimotor Srl</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #003399; --secondary: #f1c40f; }
+    body { font-family: 'Poppins', sans-serif; color: #333; background-color: #f8f9fa; }
+    header { background: var(--primary); padding: 15px 30px; display: flex; justify-content: space-between; }
+    nav a { color: #fff; font-weight: 600; margin: 0 15px; text-decoration: none; transition: color 0.3s, transform 0.3s; }
+    nav a:hover { color: var(--secondary); transform: scale(1.1); }
+
+    .content { padding: 60px 20px; }
+    .section { background: #fff; padding: 50px; border-radius: 15px; box-shadow: 0 12px 24px rgba(0,0,0,0.2); margin-bottom: 50px; transition: transform 0.3s, box-shadow 0.3s; }
+    .section:hover { transform: translateY(-15px); box-shadow: 0 16px 36px rgba(0,0,0,0.25); }
+
+    .two-column { display: flex; flex-wrap: wrap; gap: 30px; }
+    .two-column .text, .two-column .image { flex: 1 1 45%; }
+    .two-column img { width: 100%; border-radius: 15px; box-shadow: 0 8px 18px rgba(0,0,0,0.2); transition: transform 0.3s ease; }
+    .two-column img:hover { transform: scale(1.05); }
+
+    h2, h3 { color: var(--primary); font-weight: 700; font-size: 2.2rem; text-transform: uppercase; letter-spacing: 1.5px; }
+
+    .section img { border-radius: 15px; transition: transform 0.3s ease; }
+    .section img:hover { transform: scale(1.07); }
+
+    footer { background: var(--primary); color: #fff; text-align: center; padding: 50px 20px; font-size: 1.1em; }
+
+    .list-unstyled li { margin-bottom: 15px; font-size: 1.2em; }
+
+    .text-center h2 { font-size: 2.4rem; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="servizi.html">Servizi</a>
+    <a href="auto-usate.html">Auto Usate</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+</header>
+
+<section class="content container-fluid text-center py-5" style="background-color: #0055A4; color: #fff;">
+  <h1 class="display-1 fw-bold text-uppercase">CHI SIAMO</h1>
+  <p class="lead fs-3">Scopri la nostra storia fatta di esperienza, passione e innovazione nel mondo dell'auto.</p>
+</section>
+
+<section class="content container animate__animated animate__fadeInUp">
+  <div class="section d-md-flex align-items-center animate__animated animate__fadeInUp">
+  <div class="me-md-4">
+    <h2>La Nostra Storia</h2>
+    <p>Dal 1988 mettiamo la nostra competenza e professionalità al servizio di chi sceglie Alpimotor. Negli anni siamo cresciuti insieme ai nostri clienti, offrendo sempre serietà, impegno e la continua voglia di migliorare e aggiornarci. 
+    <br><br>Abbiamo affrontato i cambiamenti del settore automobilistico con passione e dedizione, adattandoci alle nuove tecnologie e alle esigenze di un mercato sempre in evoluzione. 
+    <br><br>Oggi siamo un punto di riferimento per chi cerca qualità, esperienza e una gamma di servizi completi: dalla vendita alla manutenzione, dal nuovo all’usato, con un occhio di riguardo alla mobilità elettrica e sostenibile. 
+    <br><br>Grazie a chi ci ha dato fiducia in questi anni, continuiamo il nostro cammino con entusiasmo, pronti ad affrontare le sfide del futuro insieme a voi.</p>
+  </div>
+  <div>
+    <img src="https://motori.quotidianodipuglia.it/uploads/ckfile/202412/volkswagen_polo_viaggio_storia_compatta_tedesca_v9_35084_29094917.jpg" alt="La nostra storia" class="img-fluid rounded shadow">
+  </div>
+</div>
+
+  <div class="section d-md-flex align-items-center bg-light p-5 rounded shadow animate__animated animate__fadeInUp">
+  <div class="me-md-4">
+    <h2 class="text-center">Cosa ci distingue</h2>
+    <ul class="list-unstyled text-center fs-5">
+      <li>✔️ Esperienza e professionalità</li>
+      <li>✔️ Auto nuove e usate garantite</li>
+      <li>✔️ Servizi di finanziamento e leasing</li>
+      <li>✔️ Officina specializzata</li>
+      <li>✔️ Grande attenzione all'elettrico e alla mobilità sostenibile</li>
+    </ul>
+  </div>
+  <div>
+    <img src="https://www.volkswagen.it/content/dam/onehub_pkw/importers/it/service-r-4/modelli-storici-vw/Classic-Parts_4-3.jpg" alt="Cosa ci distingue" class="img-fluid rounded shadow">
+  </div>
+</div>
+</section>
+
+<footer>
+  <p>© 2025 Alpimotor Srl - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
